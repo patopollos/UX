@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PaseanDog
+build_property.RootNamespace = PaseanDog
+build_property.ProjectDir = C:\Users\Administrativo\Documents\maestria\diseño interfaz de usuario\final\PaseanDog\PaseanDog\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Administrativo\Documents\maestria\diseño interfaz de usuario\final\PaseanDog\PaseanDog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/Clientes/Views/Inicio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcSW5pY2lvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/Clientes/Views/Inicio/Servicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcSW5pY2lvXFNlcnZpY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/General/Views/Inicio/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VuZXJhbFxWaWV3c1xJbmljaW9cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/General/Views/Inicio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VuZXJhbFxWaWV3c1xJbmljaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/Paseadores/Views/Inicio/Aviso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFzZWFkb3Jlc1xWaWV3c1xJbmljaW9cQXZpc28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/Paseadores/Views/Inicio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFzZWFkb3Jlc1xWaWV3c1xJbmljaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Areas/Paseadores/Views/Inicio/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGFzZWFkb3Jlc1xWaWV3c1xJbmljaW9cUmVnaXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/Components/GetIp/GetIp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR2V0SXBcR2V0SXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_FooterHtmlPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJIdG1sUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_FooterScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJTY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_HeaderHtmlPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJIdG1sUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_HeaderScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJTY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrativo/Documents/maestria/diseño interfaz de usuario/final/PaseanDog/PaseanDog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1nhjpwxvdn

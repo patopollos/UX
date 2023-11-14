@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Paseadores-Registro";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<section id="page-title">
+    <!-- #page-title begin -->
+    <div class="container clearfix">
+        <h1>Registro</h1>
+        <span>Registro Aspirantes Paseadores</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="~/General">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="~/Paseadores">Paseadores</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Registro</li>
+        </ol>
+    </div>
+</section><!-- #page-title end -->
+
+
+<!-- Content
+		============================================= -->
+<section id="content">
+	<div class="content-wrap">
+		<div class="container clearfix">
+
+			<div class="form-widget">
+
+				<div class="form-result"></div>
+
+				<div class="row" style="font-family:Montserrat">
+					<div class="col-lg-6">
+						<form class="row" action="include/form.php" method="post" enctype="multipart/form-data">
+							<div class="form-process">
+								<div class="css3-spinner">
+									<div class="css3-spinner-scaler"></div>
+								</div>
+							</div>
+							<div class="col-12 form-group">
+								<label>Nombre:</label>
+								<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Introduce tu nombre completo">
+							</div>
+							<div class="col-12 form-group">
+								<label>Correo electrónico:</label>
+								<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Introduce tu correo electrónico">
+							</div>
+							<div class="col-12 form-group">
+								<div class="row">
+									<div class="col-md-6 form-group">
+										<label>Teléfono:</label>
+										<input type="text" name="jobs-application-phone" id="jobs-application-phone" class="form-control required" value="" placeholder="Introduce tu teléfono">
+									</div>
+									<div class="col-md-6 form-group">
+										<label>Ciudad:</label>
+										<input type="text" name="jobs-application-location" id="jobs-application-location" class="form-control" value="" placeholder="Ciudad de residencia">
+									</div>
+									<div class="w-100"></div>
+									<div class="col-md-6 form-group">
+										<label>Fecha de nacimiento:</label>
+										<input type="text" class="form-control dobpicker required" name="jobs-application-date-of-birth" id="jobs-application-date-of-birth" value="" placeholder="DD/MM/YYYY" data-date-end-date="-18y">
+									</div>
+									<div class="col-md-6 form-group">
+										<label>Género:</label>
+										<div class="btn-group d-flex" data-bs-toggle="buttons">
+											<input type="radio" class="btn-check" name="jobs-application-gender" id="jobs-application-gender-male" value="Male">
+											<label class="btn btn-outline-secondary nott ls0" for="jobs-application-gender-male">Masculino</label>
+
+											<input type="radio" class="btn-check" name="jobs-application-gender" id="jobs-application-gender-female" value="Female">
+											<label class="btn btn-outline-secondary nott ls0" for="jobs-application-gender-female">Femenino</label>
+										</div>
+										<!-- <select class="form-select" name="jobs-application-gender" id="jobs-application-gender">
+											<option value="">-- Select One --</option>
+											<option value="Male">Male</option>
+											<option value="Female">Female</option>
+										</select> -->
+									</div>
+									<div class="w-100"></div>
+									<div class="col-md-6 form-group">
+										<label>Tipo:</label>
+										<select class="form-select required" name="jobs-application-type" id="jobs-application-type">
+											<option value="">-- Selecciona una --</option>
+											<option value="Tiempo parcial">Tiempo parcial</option>
+											<option value="Tiempo completo">Tiempo completo</option>
+											
+										</select>
+									</div>
+									<div class="col-md-6 form-group">
+										<label>Experiencia:</label>
+										<select class="form-select required" name="jobs-application-experience" id="jobs-application-experience">
+											<option value="">-- Selecciona una --</option>
+											<option value="Menos de 1 año">Menos de 1 año</option>
+											<option value="1-4 Años">1-4 Años</option>
+											<option value="4-7 Años">4-7 Años</option>
+											<option value="7+ Años">7+ Años</option>
+										</select>
+									</div>
+								</div>								
+								<div class="form-group">
+									<label>Describete a ti mismo:</label>
+									<textarea name="jobs-application-message" id="jobs-application-message" class="form-control required" cols="30" rows="8"></textarea>
+								</div>
+							</div>
+							<div class="col-12 d-none">
+								<input type="text" id="jobs-application-botcheck" name="jobs-application-botcheck" value="" />
+							</div>
+							<div class="col-12">
+								<div align="center">
+									<p>
+										<a href="~/Paseadores/Inicio/Aviso" type="button" class="btn btn-primary btn-lg">Enviar Información</a>
+										<a href="~/General" type="button" class="btn btn-primary btn-lg">Abandonar Registro</a>
+									</p>
+								</div>																
+							</div>
+
+							<input type="hidden" name="prefix" value="jobs-application-">
+						</form>
+					</div>
+
+					<div class="col-lg-6 ps-lg-5">
+						<img src="~/areas/paseadores/images/perro2.jpg" alt="perro2">
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	
+	
+</section><!-- #content end -->
+

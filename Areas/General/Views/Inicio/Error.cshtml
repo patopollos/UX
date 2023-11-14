@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Error";
+    var sError = ViewData["idError"].ToString();
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+@switch (sError)
+{
+    case "404":
+        <section id="page-title">
+            <!-- #page-title begin -->
+            <div class="container clearfix">
+                <h1>Página No Encontrada</h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="~/General">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Página No Encontrada</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- #page-title end -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container clearfix">
+                    <div class="row align-items-center col-mb-80">
+                        <div class="col-lg-6">
+                            <div class="error404 center">404</div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="heading-block text-center text-lg-start border-bottom-0">
+                                <h4>Ooopps.! La página que estás buscando, no existe.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        break;
+    default:
+        <section id="page-title">
+            <!-- #page-title begin -->
+            <div class="container clearfix">
+                <h1>Error: @sError  </h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="~/General">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Error - @sError</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- #page-title end -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container clearfix">
+                    <div class="row align-items-center col-mb-80">
+                        <div class="col-lg-6">
+                            <div class="error404 center">@sError</div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="heading-block text-center text-lg-start border-bottom-0">
+                                <h4>Ooopps.! Reporta este mensaje al Administrador.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        break;
+}

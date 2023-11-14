@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'MochiyPopOne';
+    src: url('./fonts/MochiyPopOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratSemiItalic';
+    src: url('./fonts/Montserrat-Montserrat-Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratItalic';
+    src: url('./fonts/Montserrat-Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MontserratBlack';
+    src: url('./fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+.fondo-footer {
+    background-color: #0156A3;
+    color: #fff;
+}
+
+body {
+    font-family: 'MontserratRegular', sans-serif;
+    font-size: 1em;
+}
+
+.titulo-secciones {
+    font-family: 'MochiyPopOne', sans-serif;
+    font-size: 20px;
+    color: #0156A3;
+    margin-top: 15px;
+}
+
+.txt-chester {
+    color: var(--chester);
+}
+
+/* FOOTER */
+.subtitulo-footer {
+    font-family: 'MontserratSemiBold', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #0156A3;
+}
+
+img.logo-inferior {
+    width: 30%;
+    min-width: 200px;
+}
+
+ul.menu-footer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu-footer li {
+    list-style: none;
+    clear: both;
+    padding: 5px 0px 5px 10px;
+    margin: 0;
+}
+
+    .menu-footer li:hover {
+        clear: both;
+        color: #FFA700;
+    }
+
+
+a.lnk-footer:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.lnk-footer:hover {
+    color: #FFA700;
+    text-decoration: none;
+}
+
+.menu-footer li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu-footer li:hover {
+    color: #FFA700;
+    text-decoration: none;
+}
+
+a.lnk-menu-footer:link {
+    color: #FFF;
+    text-decoration: none;
+    outline: none;
+    padding: 0px 0px 0px 25px;
+    background: url(../images/huella_blanca_peq.png) no-repeat;
+    background-size: 18px 18px;
+}
+
+a.lnk-menu-footer:hover {
+    color: #FFA700 !important; /*color del hover en links list del footer*/
+    text-decoration: none;
+}
+
+lnk-menu-footer a li:hover {
+    color: #FFA700 !important;
+}
+
+a:hover {
+    color: #FFA700 !important;
+}
+
+a.facebook {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    background: url(../images/lnk_facebook.pn) 0 0 no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+    a.facebook:hover {
+        text-decoration: none;
+        background: url(../images/lnk_facebook_hover.png) 0 0 no-repeat;
+        background-position: center;
+        background-size: 35px 35px;
+    }
+
+a.instagram {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    background: url(../images/lnk_instagram.png) 0 0 no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+    a.instagram:hover {
+        text-decoration: none;
+        background: url(../images/lnk_instagram_hover.png) 0 0 no-repeat;
+        background-position: center;
+        background-size: 35px 35px;
+    }
+
+a.tiktok {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    background: url(../images/lnk_tiktok.pn) 0 0 no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+    a.tiktok:hover {
+        text-decoration: none;
+        background: url(../images/lnk_tiktok_hover.png) 0 0 no-repeat;
+        background-position: center;
+        background-size: 35px 35px;
+    }
+
+.c-paseador {
+    background-color: #7b90a3;
+    /background: rgba(123, 144, 163, 0.3)/
+}
+
+.perro1 {
+    max-width: 300px;
+}
+
+.texto-slogan {
+    font-family: 'MontserratItalic', sans-serif;
+    font-size: 1.2em;
+}
+
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+.window-notice .content {
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+        box-sizing: content-box;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: 600px;
+        min-width: 320px !important;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        padding: 2rem;
+        font-size: 1.3rem;
+}

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaseanDog - @ViewData["Title"]</title>
+    @await Html.PartialAsync("~/Views/Shared/_HeaderScriptsPartial.cshtml")
+    @await RenderSectionAsync("HeadScripts", false)
+</head>
+<body class="stretched">
+    <div id="wrapper" class="clearfix">
+        <!-- #wrapper begin -->
+        @await Html.PartialAsync("~/Views/Shared/_HeaderHtmlPartial.cshtml")
+        @RenderBody()
+        @await Html.PartialAsync("~/Views/Shared/_FooterHtmlPartial.cshtml")
+    </div> <!-- #wrapper end -->
+    <div id="gotoTop" class="icon-angle-up"></div> <!-- #GotoTop -->
+    @await Html.PartialAsync("~/Views/Shared/_FooterScriptsPartial.cshtml")
+    @await RenderSectionAsync("FooterScripts", required: false)
+</body>
+</html>
